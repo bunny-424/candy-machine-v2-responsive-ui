@@ -73,7 +73,7 @@ const Wallet = styled.ul`
 `;
 
 const ConnectButton = styled(WalletMultiButton)`
-  border-radius: 18px !important;
+  border-radius: 25px !important;
   padding: 6px 16px;
   background-color: #4E44CE;
   margin: 0 auto;
@@ -647,11 +647,11 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>My NFT</h2>
+                            <h2>Royal Lion Kingdom</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
-                                src="cool-cats.gif"
+                                src="Generic Image.jpg"
                                 alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
